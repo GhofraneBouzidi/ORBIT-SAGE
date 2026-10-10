@@ -17,6 +17,8 @@ A satellite cannot send every image. ORBIT-SAGE runs a ship detector on board an
 
 Detector: YOLOv8s fine-tuned on HRSC2016 (844 train / 105 val / 106 test, random split, seed 42, imgsz 800). Confidence threshold 0.65 chosen on validation only.
 
+### Main results
+
 | Problem 7 indicator | Result on the 106 unseen test images |
 |---|---|
 | Data reduction | **81.3 %** vs raw (mean packet 57.3 KB vs 306.7 KB); 27.2 % below JPEG-50 |
@@ -24,7 +26,14 @@ Detector: YOLOv8s fine-tuned on HRSC2016 (844 train / 105 val / 106 test, random
 | Accuracy (detector alone) | mAP@0.5 0.973, mAP@0.5:0.95 0.859, precision 95.6 %, recall 91.0 % |
 | Latency | link time 1.2 s vs 6.3 s raw at 50 KB/s; detector ≈ 33 ms/image (Colab, after warm-up) |
 
-Simulated contact window (120 s, `src/phase3_simulation.py`, share of ships delivered): nominal 50 KB/s — raw 15 %, ORBIT-SAGE 92 %, with priority queue 95 %; link-limited 10 KB/s — 2 % / 20 % / 29 %.
+### Contact window simulation
+
+Simulated contact window (120 s, `src/phase3_simulation.py`), share of ships delivered:
+
+| Link | Raw | ORBIT-SAGE | ORBIT-SAGE with priority queue |
+|---|---|---|---|
+| 50 KB/s (nominal) | 15 % | 92 % | 95 % |
+| 10 KB/s (link-limited) | 2 % | 20 % | 29 % |
 
 Empty scenes (`results/pipeline_empty_scenes.json`): on 76 ship-free harbour crops 62 % were correctly reduced to a 133-byte record (M0), **38 % were false alarms**.
 
