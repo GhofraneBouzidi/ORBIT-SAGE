@@ -1,0 +1,6 @@
+ultralytics
+pillow
+numpy
+pyyaml
+onnx
+onnxruntime

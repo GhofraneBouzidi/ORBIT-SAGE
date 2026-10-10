@@ -1,0 +1,785 @@
+{
+  "summary": {
+    "images": 76,
+    "mode_counts": {
+      "M0": 47,
+      "M1": 1,
+      "M2": 17,
+      "M3": 11
+    },
+    "data_reduction_vs_raw": 0.8622138408629131,
+    "data_reduction_vs_jpeg50": 0.4410667029833468,
+    "mean_packet_kb": 7.6994885896381575,
+    "mean_raw_kb": 55.87998560855263,
+    "information_preserved": 0.0,
+    "empty_scene_images": 76,
+    "empty_scene_false_alarm_rate": 0.3815789473684211,
+    "empty_scene_data_reduction": 0.8622138408629131,
+    "mean_inference_ms": 49.38452817108746,
+    "mean_link_seconds_raw": 1.1444221052631578,
+    "mean_link_seconds_packet": 0.15768552631578947,
+    "note": "raw = original JPEG size; link at 50 KB/s; inference measured on this machine"
+  },
+  "per_image": [
+    {
+      "image": "100000629_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 79978,
+      "packet_bytes": 133,
+      "reduction": 0.9983370426867388,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 1832.580397999891
+    },
+    {
+      "image": "100000629_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 77735,
+      "packet_bytes": 133,
+      "reduction": 0.9982890589824404,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 40.424046999987695
+    },
+    {
+      "image": "100000663_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 11044,
+      "packet_bytes": 133,
+      "reduction": 0.9879572618616443,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 36.60038199996052
+    },
+    {
+      "image": "100000663_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 11580,
+      "packet_bytes": 133,
+      "reduction": 0.9885146804835924,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 35.3651070001888
+    },
+    {
+      "image": "100000665_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 49659,
+      "packet_bytes": 15150,
+      "reduction": 0.6949193499667734,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 51.82243600006586
+    },
+    {
+      "image": "100000665_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 45229,
+      "packet_bytes": 133,
+      "reduction": 0.9970594087863981,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 37.66667100012455
+    },
+    {
+      "image": "100000672_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 73926,
+      "packet_bytes": 133,
+      "reduction": 0.998200903606309,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 28.15688200007571
+    },
+    {
+      "image": "100000672_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 74346,
+      "packet_bytes": 133,
+      "reduction": 0.99821106717241,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.055944000110685
+    },
+    {
+      "image": "100000675_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 41257,
+      "packet_bytes": 9161,
+      "reduction": 0.777952832246649,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.425279000070077
+    },
+    {
+      "image": "100000675_empty1.jpg",
+      "mode": "M2",
+      "raw_bytes": 41412,
+      "packet_bytes": 31415,
+      "reduction": 0.24140345793489815,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.457045999928596
+    },
+    {
+      "image": "100000682_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 36747,
+      "packet_bytes": 18875,
+      "reduction": 0.4863526274253681,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.295100000017555
+    },
+    {
+      "image": "100000682_empty1.jpg",
+      "mode": "M2",
+      "raw_bytes": 37713,
+      "packet_bytes": 12989,
+      "reduction": 0.6555829554795429,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.492021000014574
+    },
+    {
+      "image": "100000693_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 33691,
+      "packet_bytes": 133,
+      "reduction": 0.996052358196551,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.137947999885
+    },
+    {
+      "image": "100000693_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 26839,
+      "packet_bytes": 133,
+      "reduction": 0.9950445247587466,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.201683999990564
+    },
+    {
+      "image": "100000696_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 67290,
+      "packet_bytes": 21730,
+      "reduction": 0.6770694010997176,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.335155999982817
+    },
+    {
+      "image": "100000696_empty1.jpg",
+      "mode": "M2",
+      "raw_bytes": 53892,
+      "packet_bytes": 8081,
+      "reduction": 0.8500519557633786,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.725623999984236
+    },
+    {
+      "image": "100000704_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 26213,
+      "packet_bytes": 133,
+      "reduction": 0.9949261816655858,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.513798000067254
+    },
+    {
+      "image": "100000704_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 26543,
+      "packet_bytes": 133,
+      "reduction": 0.9949892627057981,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 22.775882000132697
+    },
+    {
+      "image": "100000705_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 105560,
+      "packet_bytes": 19191,
+      "reduction": 0.8181981811292156,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 26.331927999990512
+    },
+    {
+      "image": "100000800_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 54319,
+      "packet_bytes": 133,
+      "reduction": 0.9975515013162982,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.241623999841977
+    },
+    {
+      "image": "100000800_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 54898,
+      "packet_bytes": 133,
+      "reduction": 0.9975773252213196,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.63506899996537
+    },
+    {
+      "image": "100000816_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 33419,
+      "packet_bytes": 133,
+      "reduction": 0.996020228014004,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.60750199998074
+    },
+    {
+      "image": "100000816_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 35797,
+      "packet_bytes": 133,
+      "reduction": 0.9962846048551555,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.69892599992818
+    },
+    {
+      "image": "100000821_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 34970,
+      "packet_bytes": 133,
+      "reduction": 0.996196740062911,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.82409300003019
+    },
+    {
+      "image": "100000853_empty0.jpg",
+      "mode": "M3",
+      "raw_bytes": 46977,
+      "packet_bytes": 11801,
+      "reduction": 0.7487919620239691,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.366464000171618
+    },
+    {
+      "image": "100000853_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 61000,
+      "packet_bytes": 133,
+      "reduction": 0.9978196721311475,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.539815000049202
+    },
+    {
+      "image": "100000895_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 74892,
+      "packet_bytes": 133,
+      "reduction": 0.9982241093841799,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.3875350001872
+    },
+    {
+      "image": "100000895_empty1.jpg",
+      "mode": "M3",
+      "raw_bytes": 74421,
+      "packet_bytes": 13846,
+      "reduction": 0.8139503634726757,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.844710000001214
+    },
+    {
+      "image": "100000898_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 52756,
+      "packet_bytes": 133,
+      "reduction": 0.9974789597391766,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.559200000136116
+    },
+    {
+      "image": "100000898_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 56097,
+      "packet_bytes": 133,
+      "reduction": 0.9976291067258498,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.7338149999905
+    },
+    {
+      "image": "100000911_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 51129,
+      "packet_bytes": 133,
+      "reduction": 0.9973987365291713,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.837051999838877
+    },
+    {
+      "image": "100000911_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 52665,
+      "packet_bytes": 133,
+      "reduction": 0.997474603626697,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.599549999971714
+    },
+    {
+      "image": "100000922_empty0.jpg",
+      "mode": "M3",
+      "raw_bytes": 73177,
+      "packet_bytes": 21760,
+      "reduction": 0.7026388072755101,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 26.8178710000484
+    },
+    {
+      "image": "100000996_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 97064,
+      "packet_bytes": 133,
+      "reduction": 0.9986297700486277,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.771687000111342
+    },
+    {
+      "image": "100000996_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 99570,
+      "packet_bytes": 133,
+      "reduction": 0.998664256302099,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.267095000141126
+    },
+    {
+      "image": "100001005_empty0.jpg",
+      "mode": "M3",
+      "raw_bytes": 84729,
+      "packet_bytes": 23238,
+      "reduction": 0.7257373508479977,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.93862300004912
+    },
+    {
+      "image": "100001005_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 85692,
+      "packet_bytes": 133,
+      "reduction": 0.99844792979508,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.179014000059396
+    },
+    {
+      "image": "100001015_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 78653,
+      "packet_bytes": 40481,
+      "reduction": 0.48532160248178713,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.54484500003673
+    },
+    {
+      "image": "100001015_empty1.jpg",
+      "mode": "M2",
+      "raw_bytes": 79159,
+      "packet_bytes": 48444,
+      "reduction": 0.3880165237054536,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 26.172915000188368
+    },
+    {
+      "image": "100001066_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 75937,
+      "packet_bytes": 133,
+      "reduction": 0.9982485481385885,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.91923000004681
+    },
+    {
+      "image": "100001066_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 77521,
+      "packet_bytes": 133,
+      "reduction": 0.9982843358573806,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.099091000129192
+    },
+    {
+      "image": "100001077_empty0.jpg",
+      "mode": "M1",
+      "raw_bytes": 79135,
+      "packet_bytes": 11592,
+      "reduction": 0.853516143299425,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.073439999914626
+    },
+    {
+      "image": "100001077_empty1.jpg",
+      "mode": "M2",
+      "raw_bytes": 88019,
+      "packet_bytes": 14921,
+      "reduction": 0.8304797827741738,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.203786000020045
+    },
+    {
+      "image": "100001096_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 49616,
+      "packet_bytes": 133,
+      "reduction": 0.9973194130925508,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.896911000065302
+    },
+    {
+      "image": "100001096_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 51957,
+      "packet_bytes": 133,
+      "reduction": 0.9974401909271128,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.58499899992239
+    },
+    {
+      "image": "100001099_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 110039,
+      "packet_bytes": 133,
+      "reduction": 0.9987913376166632,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.473283999872365
+    },
+    {
+      "image": "100001099_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 98532,
+      "packet_bytes": 133,
+      "reduction": 0.9986501847115657,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.870516999953907
+    },
+    {
+      "image": "100001189_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 24274,
+      "packet_bytes": 133,
+      "reduction": 0.9945208865452748,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.277046999941376
+    },
+    {
+      "image": "100001189_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 20227,
+      "packet_bytes": 133,
+      "reduction": 0.9934246304444554,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.08001300000251
+    },
+    {
+      "image": "100001244_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 49102,
+      "packet_bytes": 133,
+      "reduction": 0.9972913526943913,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.376382999889756
+    },
+    {
+      "image": "100001259_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 87520,
+      "packet_bytes": 133,
+      "reduction": 0.9984803473491773,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.472869999954128
+    },
+    {
+      "image": "100001259_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 90714,
+      "packet_bytes": 133,
+      "reduction": 0.9985338536499327,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.33805799998845
+    },
+    {
+      "image": "100001315_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 86864,
+      "packet_bytes": 79161,
+      "reduction": 0.08867885430097622,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.18534199998612
+    },
+    {
+      "image": "100001315_empty1.jpg",
+      "mode": "M3",
+      "raw_bytes": 85156,
+      "packet_bytes": 25866,
+      "reduction": 0.6962515853257552,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.96189999988019
+    },
+    {
+      "image": "100001327_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 69188,
+      "packet_bytes": 133,
+      "reduction": 0.9980777013354917,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 22.875163999970027
+    },
+    {
+      "image": "100001327_empty1.jpg",
+      "mode": "M3",
+      "raw_bytes": 58302,
+      "packet_bytes": 16892,
+      "reduction": 0.7102672292545711,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.110869000172897
+    },
+    {
+      "image": "100001330_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 71058,
+      "packet_bytes": 133,
+      "reduction": 0.9981282895662698,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.390325000013036
+    },
+    {
+      "image": "100001330_empty1.jpg",
+      "mode": "M2",
+      "raw_bytes": 60213,
+      "packet_bytes": 28150,
+      "reduction": 0.5324929832428213,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.214563999976235
+    },
+    {
+      "image": "100001372_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 26680,
+      "packet_bytes": 133,
+      "reduction": 0.9950149925037481,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.423052999964057
+    },
+    {
+      "image": "100001372_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 26355,
+      "packet_bytes": 133,
+      "reduction": 0.9949535192563081,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.617096999942078
+    },
+    {
+      "image": "100001452_empty0.jpg",
+      "mode": "M3",
+      "raw_bytes": 57537,
+      "packet_bytes": 16054,
+      "reduction": 0.7209795435980326,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.93176300004052
+    },
+    {
+      "image": "100001452_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 56402,
+      "packet_bytes": 133,
+      "reduction": 0.9976419275912202,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.748590000172044
+    },
+    {
+      "image": "100001489_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 40472,
+      "packet_bytes": 10664,
+      "reduction": 0.7365091915398301,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.046240000188845
+    },
+    {
+      "image": "100001489_empty1.jpg",
+      "mode": "M3",
+      "raw_bytes": 43425,
+      "packet_bytes": 9902,
+      "reduction": 0.7719746689694876,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.470572999893193
+    },
+    {
+      "image": "100001491_empty0.jpg",
+      "mode": "M3",
+      "raw_bytes": 41045,
+      "packet_bytes": 9270,
+      "reduction": 0.774150322816421,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.345582000250943
+    },
+    {
+      "image": "100001491_empty1.jpg",
+      "mode": "M3",
+      "raw_bytes": 49857,
+      "packet_bytes": 12395,
+      "reduction": 0.7513889724612391,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.973663000309898
+    },
+    {
+      "image": "100001493_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 33570,
+      "packet_bytes": 133,
+      "reduction": 0.9960381292820971,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 22.91544800027623
+    },
+    {
+      "image": "100001501_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 40011,
+      "packet_bytes": 13798,
+      "reduction": 0.6551448351703282,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 25.127521000285924
+    },
+    {
+      "image": "100001508_empty0.jpg",
+      "mode": "M3",
+      "raw_bytes": 45808,
+      "packet_bytes": 12022,
+      "reduction": 0.7375567586447782,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 26.289652999821556
+    },
+    {
+      "image": "100001508_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 50860,
+      "packet_bytes": 133,
+      "reduction": 0.9973849783720016,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.700330000338
+    },
+    {
+      "image": "100001513_empty0.jpg",
+      "mode": "M2",
+      "raw_bytes": 73471,
+      "packet_bytes": 14528,
+      "reduction": 0.8022621170257653,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.38806200007093
+    },
+    {
+      "image": "100001513_empty1.jpg",
+      "mode": "M2",
+      "raw_bytes": 68902,
+      "packet_bytes": 21577,
+      "reduction": 0.6868450843226612,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.040128999786248
+    },
+    {
+      "image": "100001570_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 26843,
+      "packet_bytes": 133,
+      "reduction": 0.9950452631971091,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.848260000249866
+    },
+    {
+      "image": "100001570_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 35167,
+      "packet_bytes": 133,
+      "reduction": 0.9962180453265845,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.313078999763093
+    },
+    {
+      "image": "100001622_empty0.jpg",
+      "mode": "M0",
+      "raw_bytes": 49020,
+      "packet_bytes": 133,
+      "reduction": 0.9972868217054264,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 23.742996000237326
+    },
+    {
+      "image": "100001622_empty1.jpg",
+      "mode": "M0",
+      "raw_bytes": 47967,
+      "packet_bytes": 133,
+      "reduction": 0.9972272604081973,
+      "ships": 0,
+      "ships_delivered": 0,
+      "inference_ms": 24.967571000161115
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "Nominal": {
+    "raw": {
+      "images": 106,
+      "sent": 21,
+      "deferred_by_window": 85,
+      "stored_safe_mode": 0,
+      "kb_sent": 5838.7,
+      "link_s": 119.6,
+      "energy_j": 358.7,
+      "battery_used_pct": 0.66,
+      "ships_delivered_pct": 14.9,
+      "recovery_if_requested_kb": 0.0
+    },
+    "fifo": {
+      "images": 106,
+      "sent": 101,
+      "deferred_by_window": 5,
+      "stored_safe_mode": 0,
+      "kb_sent": 5857.1,
+      "link_s": 120.0,
+      "energy_j": 407.7,
+      "battery_used_pct": 0.75,
+      "ships_delivered_pct": 92.0,
+      "recovery_if_requested_kb": 5438.0
+    },
+    "priority": {
+      "images": 106,
+      "sent": 103,
+      "deferred_by_window": 3,
+      "stored_safe_mode": 0,
+      "kb_sent": 5855.6,
+      "link_s": 119.9,
+      "energy_j": 407.6,
+      "battery_used_pct": 0.75,
+      "ships_delivered_pct": 95.2,
+      "recovery_if_requested_kb": 5642.0
+    }
+  },
+  "Link-constrained": {
+    "raw": {
+      "images": 106,
+      "sent": 4,
+      "deferred_by_window": 102,
+      "stored_safe_mode": 0,
+      "kb_sent": 1139.0,
+      "link_s": 116.6,
+      "energy_j": 349.9,
+      "battery_used_pct": 0.65,
+      "ships_delivered_pct": 2.1,
+      "recovery_if_requested_kb": 0.0
+    },
+    "fifo": {
+      "images": 106,
+      "sent": 29,
+      "deferred_by_window": 77,
+      "stored_safe_mode": 0,
+      "kb_sent": 1171.7,
+      "link_s": 120.0,
+      "energy_j": 407.8,
+      "battery_used_pct": 0.76,
+      "ships_delivered_pct": 20.4,
+      "recovery_if_requested_kb": 2744.3
+    },
+    "priority": {
+      "images": 106,
+      "sent": 43,
+      "deferred_by_window": 63,
+      "stored_safe_mode": 0,
+      "kb_sent": 1169.1,
+      "link_s": 119.7,
+      "energy_j": 407.0,
+      "battery_used_pct": 0.75,
+      "ships_delivered_pct": 28.7,
+      "recovery_if_requested_kb": 664.6
+    }
+  },
+  "Energy-constrained": {
+    "raw": {
+      "images": 106,
+      "sent": 21,
+      "deferred_by_window": 85,
+      "stored_safe_mode": 0,
+      "kb_sent": 5838.7,
+      "link_s": 119.6,
+      "energy_j": 358.7,
+      "battery_used_pct": 3.32,
+      "ships_delivered_pct": 14.9,
+      "recovery_if_requested_kb": 0.0
+    },
+    "fifo": {
+      "images": 106,
+      "sent": 101,
+      "deferred_by_window": 5,
+      "stored_safe_mode": 0,
+      "kb_sent": 5857.1,
+      "link_s": 120.0,
+      "energy_j": 407.7,
+      "battery_used_pct": 3.77,
+      "ships_delivered_pct": 92.0,
+      "recovery_if_requested_kb": 5438.0
+    },
+    "priority": {
+      "images": 106,
+      "sent": 103,
+      "deferred_by_window": 3,
+      "stored_safe_mode": 0,
+      "kb_sent": 5855.6,
+      "link_s": 119.9,
+      "energy_j": 407.6,
+      "battery_used_pct": 3.77,
+      "ships_delivered_pct": 95.2,
+      "recovery_if_requested_kb": 5642.0
+    }
+  },
+  "Critical-energy": {
+    "raw": {
+      "images": 106,
+      "sent": 4,
+      "deferred_by_window": 102,
+      "stored_safe_mode": 0,
+      "kb_sent": 1139.0,
+      "link_s": 116.6,
+      "energy_j": 349.9,
+      "battery_used_pct": 9.72,
+      "ships_delivered_pct": 2.1,
+      "recovery_if_requested_kb": 0.0
+    },
+    "fifo": {
+      "images": 106,
+      "sent": 102,
+      "deferred_by_window": 0,
+      "stored_safe_mode": 4,
+      "kb_sent": 25.8,
+      "link_s": 2.6,
+      "energy_j": 55.7,
+      "battery_used_pct": 1.55,
+      "ships_delivered_pct": 94.8,
+      "recovery_if_requested_kb": 5890.7
+    },
+    "priority": {
+      "images": 106,
+      "sent": 102,
+      "deferred_by_window": 0,
+      "stored_safe_mode": 4,
+      "kb_sent": 25.8,
+      "link_s": 2.6,
+      "energy_j": 55.7,
+      "battery_used_pct": 1.55,
+      "ships_delivered_pct": 94.8,
+      "recovery_if_requested_kb": 5890.7
+    }
+  },
+  "High vessel density": {
+    "raw": {
+      "images": 44,
+      "sent": 17,
+      "deferred_by_window": 27,
+      "stored_safe_mode": 0,
+      "kb_sent": 5820.0,
+      "link_s": 119.2,
+      "energy_j": 357.6,
+      "battery_used_pct": 0.66,
+      "ships_delivered_pct": 39.1,
+      "recovery_if_requested_kb": 0.0
+    },
+    "fifo": {
+      "images": 44,
+      "sent": 44,
+      "deferred_by_window": 0,
+      "stored_safe_mode": 0,
+      "kb_sent": 3210.6,
+      "link_s": 65.8,
+      "energy_j": 206.9,
+      "battery_used_pct": 0.38,
+      "ships_delivered_pct": 96.4,
+      "recovery_if_requested_kb": 2064.3
+    },
+    "priority": {
+      "images": 44,
+      "sent": 44,
+      "deferred_by_window": 0,
+      "stored_safe_mode": 0,
+      "kb_sent": 3210.6,
+      "link_s": 65.8,
+      "energy_j": 206.9,
+      "battery_used_pct": 0.38,
+      "ships_delivered_pct": 96.4,
+      "recovery_if_requested_kb": 2064.3
+    }
+  },
+  "No-vessel scenes": "no images of this type in the test set (HRSC2016 has no ship-free images)",
+  "assumptions": {
+    "window_s": 120.0,
+    "inference_w": 7.0,
+    "radio_w": 3.0,
+    "critical_soc": 0.2,
+    "critical_scenario_start_soc": 0.15,
+    "metadata_bytes": "120 + 50 per ship (estimate)",
+    "priority": "M1 > M2 > M3 > M0, then smaller packet first",
+    "not_implemented": "novelty detection, embedded hardware"
+  }
+}

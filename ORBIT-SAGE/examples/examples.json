@@ -1,0 +1,45 @@
+{
+  "M1": {
+    "image": "100000849.jpg",
+    "raw_bytes": 278884,
+    "packet_bytes": 42565,
+    "pieces": {
+      "metadata (JSON)": 234,
+      "crop 1": 19490,
+      "crop 2": 18437,
+      "crop 3": 4404
+    },
+    "reduction": 0.8473738185051849,
+    "top_conf": 0.9541313052177429,
+    "ships_detected": 3,
+    "ships_in_ground_truth": 3
+  },
+  "M2": {
+    "image": "100001491.jpg",
+    "raw_bytes": 252668,
+    "packet_bytes": 20058,
+    "pieces": {
+      "metadata (JSON)": 201,
+      "crop 1": 7246,
+      "crop 2": 7688,
+      "thumbnail 256px": 4923
+    },
+    "reduction": 0.9206151946427723,
+    "top_conf": 0.8926758766174316,
+    "ships_detected": 2,
+    "ships_in_ground_truth": 2
+  },
+  "M3": {
+    "image": "100000926.jpg",
+    "raw_bytes": 142964,
+    "packet_bytes": 41049,
+    "pieces": {
+      "metadata (JSON)": 166,
+      "full image JPEG-50": 40883
+    },
+    "reduction": 0.7128717719146078,
+    "top_conf": 0.565382182598114,
+    "ships_detected": 1,
+    "ships_in_ground_truth": 2
+  }
+}

@@ -1,0 +1,1085 @@
+{
+  "summary": {
+    "images": 106,
+    "mode_counts": {
+      "M0": 1,
+      "M1": 82,
+      "M2": 19,
+      "M3": 4
+    },
+    "data_reduction_vs_raw": 0.8130388281130002,
+    "data_reduction_vs_jpeg50": 0.2719148809724359,
+    "mean_packet_kb": 57.33734706662736,
+    "mean_raw_kb": 306.68050744398585,
+    "information_preserved": 0.9653979238754326,
+    "empty_scene_images": 0,
+    "empty_scene_false_alarm_rate": null,
+    "empty_scene_data_reduction": null,
+    "mean_inference_ms": 64.4412188773441,
+    "mean_link_seconds_raw": 6.28081679245283,
+    "mean_link_seconds_packet": 1.1742688679245283,
+    "note": "raw = original JPEG size; link at 50 KB/s; inference measured on this machine"
+  },
+  "per_image": [
+    {
+      "image": "100000629.jpg",
+      "mode": "M2",
+      "raw_bytes": 458092,
+      "packet_bytes": 21900,
+      "reduction": 0.9521930092645146,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 3393.7910079994253
+    },
+    {
+      "image": "100000663.jpg",
+      "mode": "M1",
+      "raw_bytes": 153919,
+      "packet_bytes": 10255,
+      "reduction": 0.9333740473885616,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 99.02358300041669
+    },
+    {
+      "image": "100000665.jpg",
+      "mode": "M1",
+      "raw_bytes": 286978,
+      "packet_bytes": 21236,
+      "reduction": 0.9260012962666128,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 45.08215899932111
+    },
+    {
+      "image": "100000672.jpg",
+      "mode": "M1",
+      "raw_bytes": 394242,
+      "packet_bytes": 22746,
+      "reduction": 0.9423044728872114,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 54.6842519997881
+    },
+    {
+      "image": "100000675.jpg",
+      "mode": "M2",
+      "raw_bytes": 267314,
+      "packet_bytes": 43229,
+      "reduction": 0.8382838160365712,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 38.33361299984972
+    },
+    {
+      "image": "100000682.jpg",
+      "mode": "M2",
+      "raw_bytes": 211756,
+      "packet_bytes": 15284,
+      "reduction": 0.9278225882619618,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 37.7377869999691
+    },
+    {
+      "image": "100000687.jpg",
+      "mode": "M1",
+      "raw_bytes": 402403,
+      "packet_bytes": 105420,
+      "reduction": 0.7380238218899958,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 38.35552800046571
+    },
+    {
+      "image": "100000693.jpg",
+      "mode": "M2",
+      "raw_bytes": 137168,
+      "packet_bytes": 12405,
+      "reduction": 0.9095634550332439,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 33.87665999980527
+    },
+    {
+      "image": "100000696.jpg",
+      "mode": "M1",
+      "raw_bytes": 342101,
+      "packet_bytes": 9225,
+      "reduction": 0.9730342793502503,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 34.43821400014713
+    },
+    {
+      "image": "100000704.jpg",
+      "mode": "M1",
+      "raw_bytes": 134012,
+      "packet_bytes": 13661,
+      "reduction": 0.8980613676387189,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 33.57741700074257
+    },
+    {
+      "image": "100000705.jpg",
+      "mode": "M2",
+      "raw_bytes": 530332,
+      "packet_bytes": 111769,
+      "reduction": 0.7892471131291342,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 38.02835599981336
+    },
+    {
+      "image": "100000723.jpg",
+      "mode": "M1",
+      "raw_bytes": 336981,
+      "packet_bytes": 138590,
+      "reduction": 0.5887305218988608,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 34.460040999874764
+    },
+    {
+      "image": "100000727.jpg",
+      "mode": "M1",
+      "raw_bytes": 459650,
+      "packet_bytes": 118810,
+      "reduction": 0.7415207222886979,
+      "ships": 5,
+      "ships_delivered": 5,
+      "inference_ms": 34.62021800078219
+    },
+    {
+      "image": "100000751.jpg",
+      "mode": "M1",
+      "raw_bytes": 348847,
+      "packet_bytes": 51504,
+      "reduction": 0.8523593437810846,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 32.59414399963134
+    },
+    {
+      "image": "100000791.jpg",
+      "mode": "M3",
+      "raw_bytes": 124197,
+      "packet_bytes": 27168,
+      "reduction": 0.781250754849151,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 27.769127000283333
+    },
+    {
+      "image": "100000792.jpg",
+      "mode": "M1",
+      "raw_bytes": 280795,
+      "packet_bytes": 39696,
+      "reduction": 0.8586299613597108,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 34.514543999648595
+    },
+    {
+      "image": "100000800.jpg",
+      "mode": "M2",
+      "raw_bytes": 274467,
+      "packet_bytes": 22530,
+      "reduction": 0.9179136289608587,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 32.57866200056014
+    },
+    {
+      "image": "100000803.jpg",
+      "mode": "M1",
+      "raw_bytes": 152597,
+      "packet_bytes": 14143,
+      "reduction": 0.9073179682431503,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 52.93140699996002
+    },
+    {
+      "image": "100000814.jpg",
+      "mode": "M1",
+      "raw_bytes": 389462,
+      "packet_bytes": 93391,
+      "reduction": 0.7602051034504008,
+      "ships": 5,
+      "ships_delivered": 4,
+      "inference_ms": 53.74886600020545
+    },
+    {
+      "image": "100000816.jpg",
+      "mode": "M1",
+      "raw_bytes": 208819,
+      "packet_bytes": 41380,
+      "reduction": 0.8018379553584684,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 50.78825500004314
+    },
+    {
+      "image": "100000821.jpg",
+      "mode": "M1",
+      "raw_bytes": 246284,
+      "packet_bytes": 29091,
+      "reduction": 0.881880268308132,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 31.73707999940234
+    },
+    {
+      "image": "100000834.jpg",
+      "mode": "M1",
+      "raw_bytes": 357127,
+      "packet_bytes": 55715,
+      "reduction": 0.8439910732036502,
+      "ships": 7,
+      "ships_delivered": 7,
+      "inference_ms": 30.15029499965749
+    },
+    {
+      "image": "100000839.jpg",
+      "mode": "M1",
+      "raw_bytes": 250910,
+      "packet_bytes": 75850,
+      "reduction": 0.6977003706508309,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 31.42547699917486
+    },
+    {
+      "image": "100000849.jpg",
+      "mode": "M1",
+      "raw_bytes": 278884,
+      "packet_bytes": 42565,
+      "reduction": 0.8473738185051849,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 30.90879000046698
+    },
+    {
+      "image": "100000853.jpg",
+      "mode": "M2",
+      "raw_bytes": 249736,
+      "packet_bytes": 10631,
+      "reduction": 0.9574310471858283,
+      "ships": 3,
+      "ships_delivered": 2,
+      "inference_ms": 31.846038000367116
+    },
+    {
+      "image": "100000858.jpg",
+      "mode": "M2",
+      "raw_bytes": 195987,
+      "packet_bytes": 73679,
+      "reduction": 0.6240618000173481,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 33.040378000805504
+    },
+    {
+      "image": "100000863.jpg",
+      "mode": "M1",
+      "raw_bytes": 201719,
+      "packet_bytes": 59989,
+      "reduction": 0.7026110579568607,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 29.726255999776185
+    },
+    {
+      "image": "100000875.jpg",
+      "mode": "M2",
+      "raw_bytes": 357654,
+      "packet_bytes": 145281,
+      "reduction": 0.5937945612239762,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 31.017251000776014
+    },
+    {
+      "image": "100000895.jpg",
+      "mode": "M2",
+      "raw_bytes": 477671,
+      "packet_bytes": 89474,
+      "reduction": 0.8126869749262567,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 32.04782200009504
+    },
+    {
+      "image": "100000898.jpg",
+      "mode": "M2",
+      "raw_bytes": 420972,
+      "packet_bytes": 29109,
+      "reduction": 0.9308528833271572,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 31.453935999707028
+    },
+    {
+      "image": "100000901.jpg",
+      "mode": "M2",
+      "raw_bytes": 84710,
+      "packet_bytes": 6671,
+      "reduction": 0.9212489670641011,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 51.799894999930984
+    },
+    {
+      "image": "100000910.jpg",
+      "mode": "M1",
+      "raw_bytes": 306206,
+      "packet_bytes": 53172,
+      "reduction": 0.8263521942744427,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 33.174795000377344
+    },
+    {
+      "image": "100000911.jpg",
+      "mode": "M1",
+      "raw_bytes": 335577,
+      "packet_bytes": 55107,
+      "reduction": 0.8357843356368285,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 31.293389999518695
+    },
+    {
+      "image": "100000922.jpg",
+      "mode": "M1",
+      "raw_bytes": 295561,
+      "packet_bytes": 69705,
+      "reduction": 0.7641603594520251,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 30.454652000116766
+    },
+    {
+      "image": "100000926.jpg",
+      "mode": "M3",
+      "raw_bytes": 142964,
+      "packet_bytes": 41049,
+      "reduction": 0.7128717719146078,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 51.59673199977988
+    },
+    {
+      "image": "100000944.jpg",
+      "mode": "M1",
+      "raw_bytes": 275277,
+      "packet_bytes": 111366,
+      "reduction": 0.5954402292963088,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 35.554195000258915
+    },
+    {
+      "image": "100000952.jpg",
+      "mode": "M1",
+      "raw_bytes": 181855,
+      "packet_bytes": 35878,
+      "reduction": 0.802710951032416,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 29.046259000097052
+    },
+    {
+      "image": "100000958.jpg",
+      "mode": "M0",
+      "raw_bytes": 146334,
+      "packet_bytes": 133,
+      "reduction": 0.9990911203138026,
+      "ships": 2,
+      "ships_delivered": 0,
+      "inference_ms": 27.766316999986884
+    },
+    {
+      "image": "100000978.jpg",
+      "mode": "M1",
+      "raw_bytes": 489794,
+      "packet_bytes": 175276,
+      "reduction": 0.6421434317284409,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 34.101299999747425
+    },
+    {
+      "image": "100000989.jpg",
+      "mode": "M3",
+      "raw_bytes": 278471,
+      "packet_bytes": 72604,
+      "reduction": 0.7392762621601532,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 31.01651499946456
+    },
+    {
+      "image": "100000993.jpg",
+      "mode": "M1",
+      "raw_bytes": 360842,
+      "packet_bytes": 141122,
+      "reduction": 0.6089091624589156,
+      "ships": 3,
+      "ships_delivered": 2,
+      "inference_ms": 33.24065300057555
+    },
+    {
+      "image": "100000996.jpg",
+      "mode": "M1",
+      "raw_bytes": 520683,
+      "packet_bytes": 53778,
+      "reduction": 0.8967164282298443,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 32.38751899971248
+    },
+    {
+      "image": "100000999.jpg",
+      "mode": "M1",
+      "raw_bytes": 331304,
+      "packet_bytes": 117877,
+      "reduction": 0.6442029072996402,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 30.875563000336115
+    },
+    {
+      "image": "100001005.jpg",
+      "mode": "M1",
+      "raw_bytes": 432397,
+      "packet_bytes": 74455,
+      "reduction": 0.8278087035756492,
+      "ships": 7,
+      "ships_delivered": 7,
+      "inference_ms": 31.968767000762455
+    },
+    {
+      "image": "100001013.jpg",
+      "mode": "M1",
+      "raw_bytes": 373591,
+      "packet_bytes": 104922,
+      "reduction": 0.7191527633160328,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 30.895145999238594
+    },
+    {
+      "image": "100001014.jpg",
+      "mode": "M1",
+      "raw_bytes": 479259,
+      "packet_bytes": 100467,
+      "reduction": 0.7903701338941992,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 32.841161999385804
+    },
+    {
+      "image": "100001015.jpg",
+      "mode": "M1",
+      "raw_bytes": 477130,
+      "packet_bytes": 110571,
+      "reduction": 0.7682581267159894,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 33.026463000169315
+    },
+    {
+      "image": "100001033.jpg",
+      "mode": "M1",
+      "raw_bytes": 408373,
+      "packet_bytes": 84768,
+      "reduction": 0.7924250623816952,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 32.11299199938367
+    },
+    {
+      "image": "100001066.jpg",
+      "mode": "M1",
+      "raw_bytes": 390905,
+      "packet_bytes": 28162,
+      "reduction": 0.9279569204794004,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 31.470582999645558
+    },
+    {
+      "image": "100001073.jpg",
+      "mode": "M1",
+      "raw_bytes": 501534,
+      "packet_bytes": 146177,
+      "reduction": 0.7085401986704789,
+      "ships": 7,
+      "ships_delivered": 7,
+      "inference_ms": 32.16205599983368
+    },
+    {
+      "image": "100001077.jpg",
+      "mode": "M1",
+      "raw_bytes": 402152,
+      "packet_bytes": 50799,
+      "reduction": 0.873682090353896,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 32.509932000721165
+    },
+    {
+      "image": "100001083.jpg",
+      "mode": "M3",
+      "raw_bytes": 428482,
+      "packet_bytes": 113817,
+      "reduction": 0.7343715722013994,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 31.077024999831337
+    },
+    {
+      "image": "100001090.jpg",
+      "mode": "M1",
+      "raw_bytes": 367265,
+      "packet_bytes": 118062,
+      "reduction": 0.6785372959579595,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 31.722394999633252
+    },
+    {
+      "image": "100001096.jpg",
+      "mode": "M2",
+      "raw_bytes": 239356,
+      "packet_bytes": 16688,
+      "reduction": 0.9302795835491904,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 30.48398700047983
+    },
+    {
+      "image": "100001099.jpg",
+      "mode": "M1",
+      "raw_bytes": 413088,
+      "packet_bytes": 80714,
+      "reduction": 0.8046082190719653,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 31.36413399988669
+    },
+    {
+      "image": "100001102.jpg",
+      "mode": "M1",
+      "raw_bytes": 465020,
+      "packet_bytes": 113690,
+      "reduction": 0.7555158917896004,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 31.520458000159124
+    },
+    {
+      "image": "100001127.jpg",
+      "mode": "M1",
+      "raw_bytes": 141029,
+      "packet_bytes": 32959,
+      "reduction": 0.7662962936700962,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 57.349465999323
+    },
+    {
+      "image": "100001172.jpg",
+      "mode": "M1",
+      "raw_bytes": 253529,
+      "packet_bytes": 113320,
+      "reduction": 0.5530294364747228,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 30.635269999947923
+    },
+    {
+      "image": "100001175.jpg",
+      "mode": "M1",
+      "raw_bytes": 292808,
+      "packet_bytes": 79773,
+      "reduction": 0.7275586732602934,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 28.91345999978512
+    },
+    {
+      "image": "100001189.jpg",
+      "mode": "M2",
+      "raw_bytes": 175624,
+      "packet_bytes": 15755,
+      "reduction": 0.9102913041497745,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 28.714882999338442
+    },
+    {
+      "image": "100001191.jpg",
+      "mode": "M1",
+      "raw_bytes": 202976,
+      "packet_bytes": 39364,
+      "reduction": 0.806065741762573,
+      "ships": 9,
+      "ships_delivered": 8,
+      "inference_ms": 29.503033999390027
+    },
+    {
+      "image": "100001195.jpg",
+      "mode": "M1",
+      "raw_bytes": 185688,
+      "packet_bytes": 13825,
+      "reduction": 0.9255471543664642,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 28.16246099973796
+    },
+    {
+      "image": "100001196.jpg",
+      "mode": "M1",
+      "raw_bytes": 183640,
+      "packet_bytes": 69702,
+      "reduction": 0.6204421694619908,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 29.034841000793676
+    },
+    {
+      "image": "100001217.jpg",
+      "mode": "M1",
+      "raw_bytes": 306637,
+      "packet_bytes": 48222,
+      "reduction": 0.8427391345467116,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 29.75849999984348
+    },
+    {
+      "image": "100001244.jpg",
+      "mode": "M1",
+      "raw_bytes": 390305,
+      "packet_bytes": 66553,
+      "reduction": 0.8294846338120188,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 29.110651000337384
+    },
+    {
+      "image": "100001249.jpg",
+      "mode": "M1",
+      "raw_bytes": 331019,
+      "packet_bytes": 94460,
+      "reduction": 0.71463873674925,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 27.26480100045592
+    },
+    {
+      "image": "100001259.jpg",
+      "mode": "M1",
+      "raw_bytes": 336806,
+      "packet_bytes": 21909,
+      "reduction": 0.9349506837764173,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 28.341383999759273
+    },
+    {
+      "image": "100001269.jpg",
+      "mode": "M1",
+      "raw_bytes": 335717,
+      "packet_bytes": 135898,
+      "reduction": 0.595200719653756,
+      "ships": 8,
+      "ships_delivered": 8,
+      "inference_ms": 27.790561000074376
+    },
+    {
+      "image": "100001276.jpg",
+      "mode": "M1",
+      "raw_bytes": 221769,
+      "packet_bytes": 30676,
+      "reduction": 0.861675887973522,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 26.818287999958557
+    },
+    {
+      "image": "100001281.jpg",
+      "mode": "M1",
+      "raw_bytes": 145102,
+      "packet_bytes": 39135,
+      "reduction": 0.7302931730782485,
+      "ships": 6,
+      "ships_delivered": 6,
+      "inference_ms": 28.910946999531006
+    },
+    {
+      "image": "100001289.jpg",
+      "mode": "M1",
+      "raw_bytes": 196873,
+      "packet_bytes": 21631,
+      "reduction": 0.8901271377994951,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 26.04922099999385
+    },
+    {
+      "image": "100001303.jpg",
+      "mode": "M1",
+      "raw_bytes": 404567,
+      "packet_bytes": 53253,
+      "reduction": 0.8683703811729577,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 27.098933999695873
+    },
+    {
+      "image": "100001312.jpg",
+      "mode": "M2",
+      "raw_bytes": 297894,
+      "packet_bytes": 37721,
+      "reduction": 0.8733744217741881,
+      "ships": 6,
+      "ships_delivered": 5,
+      "inference_ms": 28.004386999782582
+    },
+    {
+      "image": "100001315.jpg",
+      "mode": "M2",
+      "raw_bytes": 466422,
+      "packet_bytes": 38493,
+      "reduction": 0.9174717316078572,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 30.397764999179344
+    },
+    {
+      "image": "100001322.jpg",
+      "mode": "M1",
+      "raw_bytes": 319587,
+      "packet_bytes": 91506,
+      "reduction": 0.7136742107782857,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 48.734869999861985
+    },
+    {
+      "image": "100001325.jpg",
+      "mode": "M1",
+      "raw_bytes": 278324,
+      "packet_bytes": 13657,
+      "reduction": 0.950931288713873,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 27.23927300030482
+    },
+    {
+      "image": "100001327.jpg",
+      "mode": "M1",
+      "raw_bytes": 363845,
+      "packet_bytes": 36785,
+      "reduction": 0.8988992565515536,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 28.12274999996589
+    },
+    {
+      "image": "100001330.jpg",
+      "mode": "M1",
+      "raw_bytes": 400732,
+      "packet_bytes": 61587,
+      "reduction": 0.8463137458451034,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 28.115645999605476
+    },
+    {
+      "image": "100001344.jpg",
+      "mode": "M1",
+      "raw_bytes": 433344,
+      "packet_bytes": 33738,
+      "reduction": 0.9221449933540098,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 29.122193999683077
+    },
+    {
+      "image": "100001347.jpg",
+      "mode": "M1",
+      "raw_bytes": 420290,
+      "packet_bytes": 60456,
+      "reduction": 0.8561564633943229,
+      "ships": 5,
+      "ships_delivered": 4,
+      "inference_ms": 30.26084399971296
+    },
+    {
+      "image": "100001372.jpg",
+      "mode": "M1",
+      "raw_bytes": 191654,
+      "packet_bytes": 27320,
+      "reduction": 0.8574514489653229,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 26.35503100009373
+    },
+    {
+      "image": "100001373.jpg",
+      "mode": "M1",
+      "raw_bytes": 306643,
+      "packet_bytes": 38484,
+      "reduction": 0.8744990102497041,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 27.348298000106297
+    },
+    {
+      "image": "100001404.jpg",
+      "mode": "M1",
+      "raw_bytes": 192320,
+      "packet_bytes": 89563,
+      "reduction": 0.5343022046589019,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 27.95960300045408
+    },
+    {
+      "image": "100001412.jpg",
+      "mode": "M1",
+      "raw_bytes": 519921,
+      "packet_bytes": 65459,
+      "reduction": 0.8740981803004687,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 28.98716100025922
+    },
+    {
+      "image": "100001417.jpg",
+      "mode": "M1",
+      "raw_bytes": 410295,
+      "packet_bytes": 108137,
+      "reduction": 0.7364408535322147,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 26.957973000207858
+    },
+    {
+      "image": "100001452.jpg",
+      "mode": "M1",
+      "raw_bytes": 332214,
+      "packet_bytes": 24821,
+      "reduction": 0.9252861107599318,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 25.85477100001299
+    },
+    {
+      "image": "100001475.jpg",
+      "mode": "M1",
+      "raw_bytes": 726042,
+      "packet_bytes": 105644,
+      "reduction": 0.8544932662297773,
+      "ships": 10,
+      "ships_delivered": 10,
+      "inference_ms": 31.02343899990956
+    },
+    {
+      "image": "100001480.jpg",
+      "mode": "M2",
+      "raw_bytes": 470677,
+      "packet_bytes": 28724,
+      "reduction": 0.9389730112157594,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 31.647260000681854
+    },
+    {
+      "image": "100001485.jpg",
+      "mode": "M1",
+      "raw_bytes": 299687,
+      "packet_bytes": 127501,
+      "reduction": 0.5745527834040183,
+      "ships": 7,
+      "ships_delivered": 7,
+      "inference_ms": 28.06476399928215
+    },
+    {
+      "image": "100001489.jpg",
+      "mode": "M1",
+      "raw_bytes": 235706,
+      "packet_bytes": 26319,
+      "reduction": 0.8883397113353075,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 25.317511000139348
+    },
+    {
+      "image": "100001490.jpg",
+      "mode": "M1",
+      "raw_bytes": 221252,
+      "packet_bytes": 22375,
+      "reduction": 0.8988709706578923,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 24.354346000109217
+    },
+    {
+      "image": "100001491.jpg",
+      "mode": "M2",
+      "raw_bytes": 252668,
+      "packet_bytes": 20058,
+      "reduction": 0.9206151946427723,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 27.46013599971775
+    },
+    {
+      "image": "100001493.jpg",
+      "mode": "M1",
+      "raw_bytes": 310688,
+      "packet_bytes": 46718,
+      "reduction": 0.8496304974765682,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 27.10200499950588
+    },
+    {
+      "image": "100001501.jpg",
+      "mode": "M1",
+      "raw_bytes": 273620,
+      "packet_bytes": 45573,
+      "reduction": 0.8334441926759739,
+      "ships": 4,
+      "ships_delivered": 4,
+      "inference_ms": 27.062588000262622
+    },
+    {
+      "image": "100001508.jpg",
+      "mode": "M1",
+      "raw_bytes": 285074,
+      "packet_bytes": 22838,
+      "reduction": 0.9198874678153742,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 26.48093500010873
+    },
+    {
+      "image": "100001513.jpg",
+      "mode": "M1",
+      "raw_bytes": 314793,
+      "packet_bytes": 25683,
+      "reduction": 0.9184130523868066,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 28.125886999987415
+    },
+    {
+      "image": "100001532.jpg",
+      "mode": "M1",
+      "raw_bytes": 561154,
+      "packet_bytes": 95139,
+      "reduction": 0.8304583055631787,
+      "ships": 6,
+      "ships_delivered": 6,
+      "inference_ms": 33.40645299977041
+    },
+    {
+      "image": "100001545.jpg",
+      "mode": "M1",
+      "raw_bytes": 312317,
+      "packet_bytes": 102431,
+      "reduction": 0.6720287400301617,
+      "ships": 6,
+      "ships_delivered": 6,
+      "inference_ms": 27.290351000374358
+    },
+    {
+      "image": "100001570.jpg",
+      "mode": "M1",
+      "raw_bytes": 225400,
+      "packet_bytes": 46621,
+      "reduction": 0.7931632653061225,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 26.837276000151178
+    },
+    {
+      "image": "100001573.jpg",
+      "mode": "M1",
+      "raw_bytes": 314505,
+      "packet_bytes": 34657,
+      "reduction": 0.8898046135991479,
+      "ships": 2,
+      "ships_delivered": 2,
+      "inference_ms": 26.86527800051408
+    },
+    {
+      "image": "100001585.jpg",
+      "mode": "M1",
+      "raw_bytes": 167948,
+      "packet_bytes": 20519,
+      "reduction": 0.8778252792531022,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 24.766711000665964
+    },
+    {
+      "image": "100001607.jpg",
+      "mode": "M1",
+      "raw_bytes": 285161,
+      "packet_bytes": 71163,
+      "reduction": 0.7504462391420987,
+      "ships": 5,
+      "ships_delivered": 5,
+      "inference_ms": 26.650055000573047
+    },
+    {
+      "image": "100001622.jpg",
+      "mode": "M2",
+      "raw_bytes": 208913,
+      "packet_bytes": 9888,
+      "reduction": 0.9526692929592702,
+      "ships": 2,
+      "ships_delivered": 1,
+      "inference_ms": 26.821316999303235
+    },
+    {
+      "image": "100001660.jpg",
+      "mode": "M1",
+      "raw_bytes": 196667,
+      "packet_bytes": 55792,
+      "reduction": 0.7163123452333131,
+      "ships": 1,
+      "ships_delivered": 1,
+      "inference_ms": 26.745981000203756
+    },
+    {
+      "image": "100001666.jpg",
+      "mode": "M1",
+      "raw_bytes": 362486,
+      "packet_bytes": 55773,
+      "reduction": 0.8461375060002317,
+      "ships": 4,
+      "ships_delivered": 3,
+      "inference_ms": 31.992625000384578
+    },
+    {
+      "image": "100001674.jpg",
+      "mode": "M1",
+      "raw_bytes": 166791,
+      "packet_bytes": 33291,
+      "reduction": 0.80040289943702,
+      "ships": 3,
+      "ships_delivered": 3,
+      "inference_ms": 26.086965999638778
+    }
+  ]
+}
