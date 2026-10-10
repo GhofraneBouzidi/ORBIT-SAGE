@@ -1,6 +1,6 @@
 # ORBIT-SAGE: Risk-Aware Semantic Downlink for Satellite Ship Detection
 
-**Team Umbriel** — Ghofrane Bouzidi, Donia El Manaa · IEEE IAS ENIG Student Branch Chapter, Gabès, Tunisia
+**Team Umbriel** ·  Ghofrane Bouzidi, Donia El Manaa · IEEE IAS ENIG Student Branch Chapter, Gabès, Tunisia
 IASTAM 6.0 Technical Challenge · Track 4 (Networks and Communications) · Problem 7: *Transmitting Information Rather Than Raw Data*
 
 A satellite cannot send every image. ORBIT-SAGE runs a ship detector on board and chooses the **smallest packet that still lets the ground decide**:
@@ -38,8 +38,8 @@ Empty scenes (`results/pipeline_empty_scenes.json`): on 76 ship-free harbour cro
 
 ## Reproduce
 Requires a Kaggle token (dataset `guofeng/hrsc2016`) and a Colab GPU for training; evaluation also runs on CPU.
-1. `notebooks/ORBIT_SAGE_train_full.ipynb` — download data, convert to YOLO, train, export ONNX (≈1.5–3 h on a T4).
-2. `notebooks/ORBIT_SAGE_reconnect_and_empty_test.ipynb` — rebuild the same split from a saved model, re-run the evaluation, run the empty-scene test (no retraining).
+1. `notebooks/ORBIT_SAGE_train_full.ipynb` : download data, convert to YOLO, train, export ONNX (≈1.5–3 h on a T4).
+2. `notebooks/ORBIT_SAGE_reconnect_and_empty_test.ipynb` : rebuild the same split from a saved model, re-run the evaluation, run the empty-scene test (no retraining).
 3. Command line equivalents:
 ```
 python src/train_full.py --root HRSC2016_extracted --data hrsc_yolo --negatives 0 --epochs 100 --imgsz 800
